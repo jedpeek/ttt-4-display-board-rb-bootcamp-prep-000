@@ -2,7 +2,9 @@
 # out the current state.
 board = [" "," "," "," "," "," "," "," "," "]
 def display_board(board)
-  cell = "   |   |   "
+  top_cell = " #{board[0]} | #{board[1]} | #{board[2]} "
+  mid_cell = " #{board[3]} | #{board[4]} | #{board[5]} "
+  btm_cell = " #{board[6]} | #{board[7]} | #{board[8]} "
   row = "\n-----------\n"
   blank_board = cell + row + cell + row + cell + "\n"
   print board

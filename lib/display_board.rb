@@ -2,4 +2,4 @@
 # out the current state.
 board = [" "," "," "," ","X"," "," "," "," "]
 
-display_board(board)
+display board(board)

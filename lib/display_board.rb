@@ -8,4 +8,4 @@ def display_board(board)
   print board
 end
 
-display_board
+display_board(board)

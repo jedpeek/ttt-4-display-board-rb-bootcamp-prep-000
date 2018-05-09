@@ -7,6 +7,6 @@ def display_board(board)
   btm_cell = " #{board[6]} | #{board[7]} | #{board[8]} "
   row = "\n-----------\n"
   blank_board = top_cell + row + mid_cell + row + btm_cell + "\n"
-  print board
+  print blank_board
 end
 display_board(board)
